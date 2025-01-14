@@ -1,0 +1,222 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Type Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('wrtiting-tools.jpg'); /* Replace with your image file */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Class Selector */
+.wrapper {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputbox {
+    margin-bottom: 20px;
+}
+
+/* Descendant Selector */
+.wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* ID Selector */
+#username, #password {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Group Selector */
+input, button {
+    font-size: 16px;
+}
+
+/* Attribute Selector */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Child Selector */
+.wrapper > form > .inputbox > button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pseudo-Class Selector */
+button:hover {
+    background: #0056b3;
+}
+
+/* Adjacent Sibling Selector */
+.remember-forgot + .signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* General Sibling Selector */
+h1 ~ .signup {
+    font-size: 14px;
+}
+
+/* Pseudo-Element Selector */
+.signup-link::before {
+    content: "→ ";
+    color: #007BFF;
+}
+
+/* Styling the Signup Section */
+.signup {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.signup p {
+    margin-bottom: 10px;
+}
+
+.signup-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Type Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Class Selector */
+.wrapper {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputbox {
+    margin-bottom: 20px;
+}
+
+/* Descendant Selector */
+.wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* ID Selector */
+#username, #password {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Group Selector */
+input, button {
+    font-size: 16px;
+}
+
+/* Attribute Selector */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Child Selector */
+.wrapper > form > .inputbox > button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pseudo-Class Selector */
+button:hover {
+    background: #0056b3;
+}
+
+/* Adjacent Sibling Selector */
+.remember-forgot + .signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* General Sibling Selector */
+h1 ~ .signup {
+    font-size: 14px;
+}
+
+/* Pseudo-Element Selector */
+.signup-link::before {
+    content: "→ ";
+    color: #007BFF;
+}
+
+/* Styling the Signup Section */
+.signup {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.signup p {
+    margin-bottom: 10px;
+}
+
+.signup-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
